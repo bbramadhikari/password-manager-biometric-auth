@@ -1,1 +1,41 @@
+# Ignore virtual environment folder
+venv/
 
+# Ignore Python bytecode files
+*.pyc
+*.pyo
+__pycache__/
+
+# Ignore IDE/editor-specific files
+.vscode/
+.idea/
+
+# Ignore macOS Finder metadata
+.DS_Store
+
+# Ignore log files
+*.log
+
+# Ignore system files
+Thumbs.db
+Desktop.ini
+
+# Ignore environment files (e.g., .env for environment variables)
+.env
+
+# Ignore the requirements.txt file in docs folder (if you don't want it tracked)
+docs/requirements.txt
+
+# Ignore coverage reports (e.g., for pytest or other testing tools)
+.coverage
+*.coveragerc
+
+# Ignore Python egg info and distribution files
+*.egg-info/
+dist/
+build/
+
+# Ignore any temporary or cache files
+*.swp
+*.swo
+*.bak
