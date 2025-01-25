@@ -1,1 +1,8 @@
-
+opencv-python
+PyFingerprint
+pycryptodome
+cryptography
+pyotp
+pytest
+selenium
+pyqt5
